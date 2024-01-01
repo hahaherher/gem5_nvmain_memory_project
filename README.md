@@ -1,5 +1,15 @@
 # gem5_nvmain_memory_project
 
+## 說明
+這個專案是用https://gem5.googlesource.com/public/gem5/+/525ce650e1a5bbe71c39d4b15598d6c003cc9f9e 來改 \
+並跟NVMain混合編譯，來模擬記憶體的架構跟cache replacement policy等等。\
+改了五個檔案:\
+`./configs/common/Caches.py`\
+`./configs/common/CacheConfig.py`\
+`./configs/common/Options.py`\
+`./src/cpu/BaseCPU.py`\
+`./src/mem/cache/XBar.py`
+
 ## 環境
 Ubuntu 64-bit 18.04 - VMware workstation 16 player
 p.s. 
